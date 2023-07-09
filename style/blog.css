@@ -1,5 +1,8 @@
 body{
     font-family: 'Open Sans', sans-serif;
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: 700;
 }
 .header{
     background-color: #FFF8F3;
@@ -44,4 +47,98 @@ body{
     margin-left: auto;
     margin-bottom: ;
     padding: 216px 50px 365px 945px;
+}
+
+/* Main section-1 */
+
+.failure-checklist-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+    padding: 70px;
+}
+
+.circle{
+    width: 527.929px;
+    height: 527.929px;
+    border-radius: 527.929px;
+    background: rgba(241, 91, 34, 0.20);
+    position: relative;
+}
+
+img.planner-person{
+    position: absolute;
+    top: -193px;
+    left: -22px;
+    border-bottom-right-radius: 41%;
+    border-bottom-left-radius: 37%;
+    /* margin-right: 100px; */
+}
+
+.failure-plan-checklist{
+    width: 400px;
+}
+
+.section-title{
+    font-size: 40px;
+}
+
+.failure-description{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: 24px;
+    padding-bottom: 34px;
+}
+.failure-list{
+    padding-left: 18px;
+    line-height: 25px;
+}
+.failure-list li{
+    font-size: 16px;
+    font-weight: 400;
+    list-style: none;
+}
+.failure-list li::before{
+
+    font-family: 'FontAwesome';
+    content: '\f00c';
+    margin:0 5px 0 -15px;
+    color: #16D887;
+
+}
+
+
+/* Main section-2 styles */
+.main-section-2{}
+.my-plan-container{
+    padding: 100px;
+}
+.my-plan-container h2{
+    text-align: center;
+    padding-bottom: 40px;
+}
+.my-plan-area{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+}
+.my-plan{}
+.plan-icon:hover{
+    opacity: 0.7;
+}
+.plan-title{
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.plan-sub-title{
+    color: #737272;
+    font-size: 25px;
+    font-weight: 500;
 }
