@@ -67,7 +67,7 @@ body{
     position: relative;
 }
 
-img.planner-person{
+.planner-person{
     position: absolute;
     top: -193px;
     left: -22px;
@@ -141,4 +141,34 @@ img.planner-person{
     color: #737272;
     font-size: 25px;
     font-weight: 500;
+}
+
+/* Main section 3 */
+
+.banner-container{
+    background-image:linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0.00) 100%), url('../images/watch.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    vertical-align: center;
+}
+
+.inner-banner-section{
+    width: 50%;
+    padding-left: 100px;
+}
+
+.inner-banner-section h2{
+    color: white;
+    padding-bottom: 20px;
+    padding-top: 60px;
+
+}
+.btm-extra{
+    background-color: white;
+    color: #f15b22; ;
 }
