@@ -172,3 +172,67 @@ body{
     background-color: white;
     color: #f15b22; ;
 }
+
+/* Footer section  */
+
+.footer-all{
+    display: flex;
+    color: white;
+    background-color: #151414;
+    margin-top: 100px;
+    
+}
+
+.footer-cintainer{
+    display: flex;
+    padding: 100px 0px;
+    justify-content: space-around;
+}
+.footer-left{
+    width: 50%;
+}
+.footer-left> p{
+    color: #FFF;
+    font-weight: 400px;
+    line-height: 26px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.address-info{
+    color: #FFF;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+.social-link{
+    padding-top: 20px;
+
+}
+.subscribe-title{
+    font-size: 25px;
+    padding-bottom: 20px;
+}
+.contact-form{
+    display: flex;
+    flex-direction: column;
+}
+.contact-form input{
+    width: 320px;
+    height: 60px;
+    border-radius: 8px;
+    border: 1px solid #fff;
+    background-color: #151414;
+    margin-bottom: 20px;
+    padding-left: 30px;
+    color: #F3F3F3;
+    font-weight: normal;
+    font-size: 18px;
+}
+
+.btn-subs{
+    width: 170px;
+    background-color: white;
+    color: #F15B22;
+}
+
